@@ -1206,13 +1206,13 @@
     wait(0.2)
     if executor_Name == "Solara" or executor_Name == "Sonar" then
         Window = Rayfield:CreateWindow({
-            Name = "⭐ Flames Hub ⭐ | V9.9.7 | "..tostring(executor_Name),
+            Name = "🔥 Zcnxs's Hub 🔥 | V9.9.7 | "..tostring(executor_Name),
             LoadingTitle = "Enjoy, "..tostring(getgenv().LocalPlayer),
-            LoadingSubtitle = "Zacks Easy Hub | Wassup.",
+            LoadingSubtitle = "Zcnxs's Easy Hub | Wassup.",
             ConfigurationSaving = {
                 Enabled = false,
-                FolderName = "ConfigurationZacksEasyHub",
-                FileName = "ZacksEasyHub"
+                FolderName = "ConfigurationZncxsEasyHub",
+                FileName = ""
             },
             Discord = {
                 Enabled = false,
@@ -1225,24 +1225,24 @@
                 Subtitle = "No key system is provided.",
                 Note = "...",
                 FileName = "Key",
-                SaveKey = false,
+                SaveKey = true,
                 GrabKeyFromSite = false,
-                Key = {"None"}
+                Key = {"Zcnxs"}
             }
         })
     else
         Window = Rayfield:CreateWindow({
-            Name = "⭐ Flames Easy Hub ⭐ | V9.9.7 | "..tostring(executor_Name),
+            Name = "🔥 Zcnxs's Easy Hub 🔥 | V9.9.7 | "..tostring(executor_Name),
             LoadingTitle = "Enjoy, "..tostring(game.Players.LocalPlayer),
-            LoadingSubtitle = "Zacks Easy Hub | Wassup.",
+            LoadingSubtitle = "Zcnxs's Easy Hub | Wassup.",
             ConfigurationSaving = {
                 Enabled = false,
-                FolderName = "ConfigurationZacksEasyHub",
-                FileName = "ZacksEasyHub"
+                FolderName = "ConfigurationZcnxsEasyHub",
+                FileName = "ZcnxsEasyHub"
             },
             Discord = {
                 Enabled = true,
-                Invite = "zackseasyhub",
+                Invite = "",
                 RememberJoins = true
             },
             KeySystem = false,
